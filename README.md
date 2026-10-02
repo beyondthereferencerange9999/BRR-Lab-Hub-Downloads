@@ -7,14 +7,31 @@ runs its own Windows host with its own accounts, permissions, records, and
 backups. Staff connect to that lab's trusted HTTPS address in a browser or an
 installable browser app. The editable application source remains private.
 
-## Download and start
+## Install on Windows
 
-1. Open this repository's **Releases** section and choose **v1.4.0-preview.1**.
-2. Download **BRR_Lab_Hub_Windows_Installer_v1.4_Public_Preview.zip**.
-3. Extract the ZIP and open **START_HERE.html**. Python is included.
-4. Have lab IT review the unsigned Windows x64 installer and verify its checksum.
-5. Install on the lab's designated host, create the Lab Manager account, configure
-   trusted HTTPS, and complete **LAB_DEPLOYMENT_CHECKLIST.html** before routine use.
+[![Install on Windows](install-windows.svg)](https://github.com/beyondthereferencerange9999/BRR-Lab-Hub-Downloads/releases/download/v1.4.0-preview.1/BRR_Lab_Hub_Setup_1.4.0_Windows_x64.exe)
+
+**Free public preview · Windows x64 · Python included**  
+[Free-use terms](PUBLIC_USE_TERMS.txt) · [Third-party notices](THIRD_PARTY_NOTICES.txt)
+
+1. Click **Install on Windows** to download the installer directly.
+2. Have lab IT review the unsigned installer and its [SHA-256 checksum](https://github.com/beyondthereferencerange9999/BRR-Lab-Hub-Downloads/releases/download/v1.4.0-preview.1/INSTALLER_SHA256.sha256), then open it and follow the installation wizard.
+3. Open **BRR Lab Hub** from the Windows Start menu.
+4. Choose **Set up or open this lab's host**, then **Start my lab's host**.
+   The guided first-time setup creates this lab's name and Lab Manager account.
+
+**First lab setup:** configure trusted HTTPS for team access and complete the
+five deployment checks before routine use. The host window stays open while
+staff use the app. The optional **Start this lab host when I sign in to Windows**
+setting opens it after the designated Windows user signs in.
+
+Staff use this lab's address on their phones, tablets, or computers and install
+the browser app where supported. They connect to the lab's central host.
+
+[Setup guide](https://github.com/beyondthereferencerange9999/BRR-Lab-Hub-Downloads/releases/download/v1.4.0-preview.1/START_HERE.html) · [Complete package with guides and validation reports](https://github.com/beyondthereferencerange9999/BRR-Lab-Hub-Downloads/releases/download/v1.4.0-preview.1/BRR_Lab_Hub_Windows_Installer_v1.4_Public_Preview.zip)
+
+Keep a copy of [PUBLIC_USE_TERMS.txt](PUBLIC_USE_TERMS.txt) with any installer
+you redistribute; the installer includes the third-party notices and runtime licenses.
 
 There is no program fee, required software subscription, per-member service,
 paid database, or BRR account. Each lab supplies and maintains its own host,
