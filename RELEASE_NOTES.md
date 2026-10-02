@@ -1,21 +1,41 @@
-BRR Lab Management Hub Free Edition provides free independent copies for laboratories. Each lab has its own Windows host, accounts, records, and backups; source remains private.
+# Release notes
 
-Download **BRR_Lab_Hub_Windows_Installer_v1.4_Public_Preview.zip**, extract it, and open **START_HERE.html**. Python is included in the unsigned Windows x64 installer. Lab IT reviews installation and trusted HTTPS setup.
+## v1.5.0-preview.1
 
-Shared implementation checkboxes record the completing member and time. The program retains revision history and blocks activation until planned steps are complete. v1.4 also includes manager-only host health, an isolated full recovery check, interrupted-restore recovery, optional startup after Windows sign-in, and handled offline checkbox-save errors.
+New Manager Desk, decision scheduling, weekly workload/capacity planning,
+structured small pilot tests, outcome/process/balancing measurements, observed
+trend charts, attributed corrections, current outcome reviews, and lab-local
+Improvement Templates. Copies of templates start as fresh proposal drafts with
+unchecked implementation steps and fresh approvals, baselines, and results.
 
-**Validated using synthetic records:** 85 Python tests, 10 local JavaScript event checks, 17 actual browser checks, bundled and installed runtime, native controls, install/reinstall/uninstall with retained records, trusted test HTTPS, offline privacy, explicit updates, and isolated backup/restore. Edge workflow passed; Chrome standalone app installation, launch, and removal passed. Edge app installation must be confirmed on intended devices.
+Existing implementation checkboxes, rollout gates, approvals, permissions,
+tasks/projects, recurrence, process acknowledgments, and 30/60/90-day reviews
+are retained. Structured measures add a current outcome-review closure gate.
+Partial or unmet benefit can be recorded with reasoning; insufficient evidence
+keeps the gate pending. New evidence invalidates the prior evidence review;
+completed items keep their original closure and flag later evidence for review.
 
-**Public preview:** each lab completes the five included deployment checks before routine use: unsigned-installer acceptance, second-device trusted HTTPS and permissions, intended browser/device installation and updates, actual Windows restart/sign-in and scheduled work, and recovery from the intended separate restricted backup location. BRR has not tested the intended lab network or an actual OS reboot there.
+Existing v1.4 records get a pre-upgrade database snapshot before migration to
+schema 3. New workflow records participate in full backup/restore checks.
+Reinstall and removal retain the separate local records folder. Obtain a
+verified full external backup before upgrading. Downgrade requires restoration
+of a verified compatible v1.4 backup on an isolated host.
 
-OneDrive or Google Drive may store the package, guides, and team launcher. A designated Windows host runs the app; live records and the certificate private key stay outside cloud synchronization. Completed full backups belong in a separate restricted manager/admin folder. Each member signs in using an individual Lab Hub account.
+Native installers: Windows x64, Ubuntu 24.04 x64, and macOS 15 Apple silicon and
+Intel previews. All are unsigned. Mac previews are unnotarized and require a
+lab-approved distribution method; normal Gatekeeper acceptance is not verified.
+Mac/Linux automatic startup requires local IT configuration. Staff continue to
+use the installable web app from the lab's trusted HTTPS address on supported
+phones, tablets, and computers.
 
-Free installation, use, and unmodified installer sharing are permitted under **PUBLIC_USE_TERMS.txt**, with third-party notices retained. There is no required paid service or BRR account. Each lab supplies and maintains its host, network, devices, and backup storage. The app supports management and process improvement; enter no patient or other sensitive personal information.
+Validation: 98 Python tests and 10 JavaScript checks per native build; installed
+native UI/runtime/install/reinstall/uninstall with retained records; 21 Windows
+and 17 browser checks per Mac/Ubuntu target. Windows checked trusted test HTTPS,
+Edge workflows, and Chrome standalone installation/launch/removal. Mac/Ubuntu
+used Playwright Chromium and loopback connections. Original reports, screenshots,
+runtime notices, and checksums are in the full package. Actual lab networks,
+physical phones, OS reboot, and external backup routes remain local gates.
 
-Installer SHA-256: `cd06681353be1d802ea73a6ab9e72eb196bdd427d34dba10e1df5c8733425ed7`
-
-Public package ZIP SHA-256: `81bfd3342516e200b9e4c62e0618c62efd47ab16efd1ccc206d923d97e970181`
-
-The installer is unchanged from the validated build. This ZIP finalizes the public-preview documentation and terms. The original validation reports and runtime notices are retained.
-
-For ordinary issues, use this repository's Issues tab with version details and reproducible synthetic steps. Do not upload lab records, full backups, credentials, private keys, or sensitive screenshots.
+Source stays private. Free independent use and unmodified installer sharing
+remain permitted with use terms and third-party notices retained. The previous
+v1.4 release remains available for its verified compatible installations.

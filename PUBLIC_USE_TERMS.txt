@@ -20,6 +20,6 @@ installation and recovery arrangements before relying on it. The program
 supports management and process improvement; it does not replace the lab's
 official procedures, document control, or training system.
 
-These terms accompany the publisher-approved v1.4 public preview and are
-effective when that preview is publicly published. Retain these terms and
+These terms accompany publisher-approved BRR Lab Hub public previews and are
+effective for each preview when it is publicly published. Retain these terms and
 THIRD_PARTY_NOTICES.txt with distributed copies.

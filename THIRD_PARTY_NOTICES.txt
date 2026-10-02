@@ -20,3 +20,12 @@ zlib compression. XZ command-line programs and build scripts are not bundled.
 
 The host installer is unsigned. Each lab selects an installation method
 accepted by its IT policy. No component author endorses this program.
+
+Mac and Ubuntu hosts include target runtime notices in the same runtime-licenses
+folder. LICENSE_INVENTORY.json records the actual runtime versions and notice
+checksums. Ubuntu additionally includes LINUX_SYSTEM_PROVENANCE.json, exact
+distribution package/version notices, and any referenced common-license texts
+for libraries actually bundled. The Ubuntu host is based in part on the work
+of the FreeType Team and selects the FreeType License (FTL) for that library.
+Unused GNU Readline and GNU dbm modules are excluded. Third-party license rights,
+including any applicable replacement rights, are unaffected by BRR use terms.
