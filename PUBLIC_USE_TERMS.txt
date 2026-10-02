@@ -1,0 +1,25 @@
+FREE INSTALLER-USE TERMS
+
+BRR Lab Management Hub Free Edition
+Copyright 2026 Beyond the Reference Range.
+
+Any laboratory may download, install, and use its own independent copy of
+this unmodified program without a program fee. Laboratories may share the
+unmodified installer with these terms and all third-party notices retained.
+Each laboratory supplies and administers its own host, network, accounts,
+records, backups, and local deployment checks.
+
+The original application source repository stays private. This permission
+does not grant an open-source license, rights to publish modified BRR-branded
+editions, or rights to BRR names and marks. Bundled third-party components
+remain under their included original licenses.
+
+The program is provided as-is, without a warranty or promise of uninterrupted
+service or suitability for a particular laboratory. Each lab evaluates its
+installation and recovery arrangements before relying on it. The program
+supports management and process improvement; it does not replace the lab's
+official procedures, document control, or training system.
+
+These terms accompany the publisher-approved v1.4 public preview and are
+effective when that preview is publicly published. Retain these terms and
+THIRD_PARTY_NOTICES.txt with distributed copies.

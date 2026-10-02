@@ -1,0 +1,22 @@
+BRR Lab Hub bundles an unmodified Python runtime and its standard-library
+components, including Tcl/Tk, SQLite, and OpenSSL, as collected by PyInstaller.
+The app build collects the runtime's available license files in runtime-licenses.
+These components remain under their original licenses; their authors do not
+endorse the laboratory program.
+
+Python / Python Software Foundation: https://docs.python.org/3/license.html
+Tcl/Tk: https://www.tcl-lang.org/software/tcltk/license.html
+SQLite: https://www.sqlite.org/copyright.html
+OpenSSL: https://www.openssl.org/source/license.html
+PyInstaller / bootloader exception: https://pyinstaller.org/en/stable/license.html
+
+The Windows build copies the actual Python and PyInstaller license files and
+the upstream component notices into runtime-licenses. LICENSE_INVENTORY.json
+records actual runtime versions and checksums; PROVENANCE.json names the
+upstream sources. Python is bundled unmodified. Tcl/Tk, OpenSSL, libffi, bzip2,
+CPython incorporated-software notices, SQLite's public-domain status, XZ's
+public-domain liblzma, and NSIS notices are retained. The NSIS installer uses
+zlib compression. XZ command-line programs and build scripts are not bundled.
+
+The host installer is unsigned. Each lab selects an installation method
+accepted by its IT policy. No component author endorses this program.
